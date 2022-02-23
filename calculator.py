@@ -29,15 +29,15 @@ while True:
 		if choice == '1':
 			print(num1, "+", num2, "=", add(num1, num2))
 
-		elif choice == '2'
+		elif choice == '2':
 			print(num1, "-", num2, "=", subtract(num1, num2))
 
-		elif choice == '3'
+		elif choice == '3':
 			print(num1, "x", num2, "=", multiply(num1, num2))
 
 		#check if wants another operation or else break the while loop
-		next_calculation = input("Wanna to another calculation? (yes/no): ")
-		if next_calculation == "no":
+		next_calculation = input("Wanna to another calculation? ([Y]es/[N]o): ")
+		if next_calculation == "N":
 			break
 
 	else:
